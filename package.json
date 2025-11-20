@@ -5,16 +5,19 @@
   "main": "bot.js",
   "author": "Sai Teja M",
   "license": "ISC",
+
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
+
   "scripts": {
-    "dev": "nodemon .",
-    "start": "node .",
+    "start": "node server.js & node bot.js",
+    "dev": "nodemon bot.js",
     "format": "prettier --write src",
     "docker:package": "tar -cf discord-js-bot.tar dashboard logs src bot.js config.js dockerfile package.json package-lock.json",
     "docker:build": "docker build -t RayDev07/All-in-One-V3 ."
   },
+
   "homepage": "https://github.com/RayDev07/All-in-One-V3#readme",
   "repository": {
     "type": "git",
@@ -23,6 +26,7 @@
   "bugs": {
     "url": "https://github.com/RayDev07/All-in-One-V3/issues"
   },
+
   "dependencies": {
     "@lavaclient/queue": "^2.1.1",
     "@lavaclient/spotify": "^3.1.0",
@@ -59,19 +63,21 @@
     "timestamp-to-date": "^1.1.0",
     "twemoji-parser": "^14.0.0"
   },
+
   "optionalDependencies": {
     "bufferutil": "^4.0.8",
     "erlpack": "^0.1.4",
     "utf-8-validate": "^6.0.3",
     "zlib-sync": "^0.1.9"
   },
+
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-jsdoc": "^46.4.3",
-    "node": "^18.18.2",
     "nodemon": "^3.0.3",
     "prettier": "3.2.5"
   },
+
   "keywords": [
     "discord",
     "discord.js",
@@ -81,6 +87,7 @@
     "multipurpose",
     "multi-purpose-bot"
   ],
+
   "_moduleAliases": {
     "@root": ".",
     "@handlers": "src/handlers/",
