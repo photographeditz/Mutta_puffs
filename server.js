@@ -6,8 +6,7 @@ app.get("/", (req, res) => {
   res.send("Bot is running on Render!");
 });
 
-// Render requires your app to listen on process.env.PORT
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Web server running on port ${port}`);
 });
