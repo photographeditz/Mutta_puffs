@@ -106,9 +106,9 @@ module.exports = {
 
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
-    STATUS: "online", // The bot's status [online, idle, dnd, invisible]
-    TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members", // Your bot status message
+    STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
+    TYPE: "LISTENING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
+    MESSAGE: "#Zenix", // Your bot status message
   },
 
   STATS: {
