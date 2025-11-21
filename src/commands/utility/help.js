@@ -128,11 +128,11 @@ async function getHelpMenu({ client, guild }) {
         .addFields([
         {
           name: "__**<a:loading:1363179590851493958> Features [1-9]**__",
-          value: `>>> <:points:1362988742088065279> Admin 
+          value: `>>> <:author:1432334596602855525> Admin 
 <:user_user:1441372682380906546> Anime 
 <:hammer:1441373045968207924> Automod 
-<:cash:1362988707992441042> Economy 
-<:owo_cash:1441373317012394086> Fun 
+<:owo_cash:1441373317012394086> Economy 
+<:fun:1441373458935316510> Fun 
 <:Notifications:1441373711075905627> Giveaway 
 <:link:1441373794542293056> Invite 
 <:bot:1441374041028956211> Information`,
@@ -143,10 +143,10 @@ async function getHelpMenu({ client, guild }) {
           value: `>>> <:gear:1362988633748934768> Moderation 
 <:song:1441374491342278816> Music 
 <:lock:1441374652533571746> Owner 
-<:com:1362988647137284136> Social 
+<:SocialMedia:1441377666245595157> Social 
 <:chart:1362988642225885314> Statistics 
 <:claim:1441374933748809778> Suggestions 
-<:transcript:1362988747326492782> Ticket 
+<:transcript:1441375073729511534> Ticket 
 <a:search:1441377858227273849> Utility `,
           inline: true
         }
