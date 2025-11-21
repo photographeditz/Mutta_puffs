@@ -110,19 +110,14 @@ async function getHelpMenu({ client, guild }) {
     .setLabel("Support Server")
     .setEmoji('1238430085795545139')
     .setStyle(ButtonStyle.Link)
-    .setURL("https://dsc.gg/codexdev");
+    .setURL("https://discord.gg/k2ASVBYZRP");
 
-  const inviteButton = new ButtonBuilder()
-    .setLabel("Invite Me")
-    .setStyle(ButtonStyle.Link)
-    .setEmoji('1238429920573784074')
-    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&permissions=8&scope=bot+applications.commands`);
-
+  
   const voteButton = new ButtonBuilder()
     .setLabel("Vote Me")
     .setStyle(ButtonStyle.Link)
     .setEmoji('1238429509795971116')
-    .setURL(VOTE);
+    .setURL("https://discord.gg/k2ASVBYZRP");
 
   const buttonsRow = new ActionRowBuilder().addComponents([supportButton, inviteButton, voteButton]);
 
