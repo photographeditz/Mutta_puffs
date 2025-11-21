@@ -119,7 +119,7 @@ async function getHelpMenu({ client, guild }) {
     .setEmoji('1238429509795971116')
     .setURL("https://discord.gg/k2ASVBYZRP");
 
-  const buttonsRow = new ActionRowBuilder().addComponents([supportButton, inviteButton, voteButton]);
+  const buttonsRow = new ActionRowBuilder().addComponents([supportButton, voteButton]);
 
   const embed = new EmbedBuilder()
     .setColor(EMBED_COLORS.BOT_EMBED)
