@@ -129,34 +129,34 @@ async function getHelpMenu({ client, guild }) {
         {
           name: "__**<a:loading:1363179590851493958> Features [1-9]**__",
           value: `>>> <:points:1362988742088065279> Admin 
-<:users:1362988710416875560> Anime 
-<:hammer:1362988671560843475> Automod 
+<:user_user:1441372682380906546> Anime 
+<:hammer:1441373045968207924> Automod 
 <:cash:1362988707992441042> Economy 
-<:fun:1362988649641148557> Fun 
-<:notification:1362988666640797847> Giveaway 
-<:link:1362988772760748062> Invite 
-<:bot:1362988630733357127> Information`,
+<:owo_cash:1441373317012394086> Fun 
+<:Notifications:1441373711075905627> Giveaway 
+<:link:1441373794542293056> Invite 
+<:bot:1441374041028956211> Information`,
           inline: true
         },
         {
-          name: "__**<a:loading:1363179590851493958> Features [10-18]**__",
+          name: "__**<a:loading:1441372036353228832> Features [10-18]**__",
           value: `>>> <:gear:1362988633748934768> Moderation 
-<:fav_songs:1362988694390439946> Music 
-<:lock:1362988677784932564> Owner 
+<:song:1441374491342278816> Music 
+<:lock:1441374652533571746> Owner 
 <:com:1362988647137284136> Social 
 <:chart:1362988642225885314> Statistics 
-<:claim:1362988660273709067> Suggestions 
+<:claim:1441374933748809778> Suggestions 
 <:transcript:1362988747326492782> Ticket 
-<:search:1362988723737723152> Utility `,
+<a:search:1441377858227273849> Utility `,
           inline: true
         }
         ])
-    .setDescription(`<a:loading:1363179590851493958> **AIO V3 is here to help. \n > It is a multipourpose bot for your discord. \n > It can help you to build a Super server.**
-<a:loading:1363179590851493958> __**BOT INFO**__
-> <:circle:1362988697338773765> Prefix: \`/\`
-> <:circle:1362988697338773765> Discord.js Version: \`v14.15.2\`
-> <:circle:1362988697338773765> Running on \`${process.versions.node}\`
-> <:circle:1362988697338773765> Modified by \`ray.dev\``);
+    .setDescription(`<a:loading:1441372036353228832> **Felix is here to help. \n > Built for #Zenix. \n > Helps you level up the #Zenix server.**
+<a:loading:1441372036353228832> __**BOT INFO**__
+> <a:point:1441372347788427285> Prefix: \`*\`
+> <a:point:1441372347788427285> Discord.js Version: \`v14.15.2\`
+> <a:point:1441372347788427285> Running on \`${process.versions.node}\`
+> <a:point:1441372347788427285> Modified by \`photographeditz\``);
 
   return {
     embeds: [embed],
